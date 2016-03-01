@@ -68,7 +68,10 @@ int main(int argc,char *argv[])
     std::vector<cv::Vec4i>::iterator it = lines.begin();
     for(; it!=lines.end(); ++it) {
         cv::Vec4i l = *it;
-        cv::line(dst_img, cv::Point(l[0], l[1]), cv::Point(l[2], l[3]), cv::Scalar(0,0,255), 2, CV_AA);
+        
+        // DEBUG - Line color is RED,
+        // cv::line(dst_img, cv::Point(l[0], l[1]), cv::Point(l[2], l[3]), cv::Scalar(0,0,255), 2, CV_AA);
+
         
         // cut poinst1
         if(l[1] == l[3]){
