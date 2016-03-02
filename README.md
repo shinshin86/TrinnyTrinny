@@ -1,5 +1,9 @@
 # TrinnyTrinny
 -------
+##### TrinnyTrinny is trimming to image file to using a Hough transform.
+
+-----------
+
 I'll try a trimming to image file to using a Hough transform.<br>
 Using a C++ with OpenCV.
 
