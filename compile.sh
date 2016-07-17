@@ -1,1 +1,1 @@
-g++ HoughTrim.cpp `pkg-config --cflags opencv` `pkg-config --libs opencv`
+g++ HoughTrim.cpp -o HoughTrim `pkg-config --cflags opencv` `pkg-config --libs opencv`
